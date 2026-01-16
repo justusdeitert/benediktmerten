@@ -2,29 +2,29 @@
 
 /* Smooth page load animation */
 body {
-  opacity: 0;
-  animation: fadeIn 0.6s ease-out forwards;
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out forwards;
 }
 
 @keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+    to {
+        opacity: 1;
+    }
 }
 
 /* Refined typography */
 p {
-  text-wrap: pretty;
+    text-wrap: pretty;
 }
 
 /* Selection styling */
 ::selection {
-  background-color: #1a1a1a;
-  color: #ffffff;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
 /* Focus styles for accessibility */
 a:focus-visible {
-  outline: 2px solid #1a1a1a;
-  outline-offset: 4px;
+    outline: 2px solid #1a1a1a;
+    outline-offset: 4px;
 }
