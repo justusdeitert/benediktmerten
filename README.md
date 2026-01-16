@@ -6,6 +6,8 @@
 
 Personal website for Benedikt Merten – Executive Creative Producer, Berlin.
 
+🌐 **Live Site:** [benediktmerten.com](https://benediktmerten.com)
+
 ## Commands
 
 ```bash
