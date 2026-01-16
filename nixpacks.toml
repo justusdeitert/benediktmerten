@@ -1,8 +1,8 @@
 [phases.setup]
-nixPkgs = ["nodejs_23", "yarn"]
+nixPkgs = ["nodejs_22", "yarn"]
 
 [phases.install]
-cmds = ["yarn install --frozen-lockfile"]
+cmds = ["yarn install --frozen-lockfile --ignore-engines"]
 
 [phases.build]
 cmds = ["yarn build"]
